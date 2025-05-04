@@ -1,0 +1,287 @@
+/*Style Général*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #444;
+    background-color: #231263;
+}
+
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+.conteneur {
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.orange {
+    color: #1a35a1;
+}
+
+.effacer {
+    clear: both;
+}
+
+small {
+    font-size: 13px;
+    font-style: italic;
+}
+
+/*Section header*/
+header {
+    height: 100px;
+    background-color: #231263;
+}
+
+header h1 {
+    float: left;
+    margin-top: 32px;
+    color: #fff;
+}
+
+h2 {
+    color: #fff;
+    font-size: 55px;
+}
+
+h3 {
+    font-size: 24px;
+    color: #5100ff;
+}
+
+h4 {
+    font-size: 24px;
+    color: #4000ff;
+}
+
+p {
+    line-height: 20px;
+    color: #777;
+}
+
+header nav {
+    float: right;
+    margin-top: 50px;
+}
+
+header nav ul li {
+    float: left;
+    display: inline-block;
+
+}
+
+header nav ul li a {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+/*Section image-principale*/
+#image-principale {
+    height: 500px;
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('img 1.jpg') center/cover no-repeat;
+    background-blend-mode: multiply;
+    border-bottom: 3px solid #19a0b1;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+
+#image-principale h2 {
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 150px 0 40px 0;
+    margin-bottom: 20px;
+}
+
+.bouton-1 {
+    display: block;
+    width: 110px;
+    height:50px ;
+    background: #231263;
+    color: #fff;
+    font-size: 20px;
+    margin: 0 auto;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.bouton-1:hover {
+    background: #7f71ea;
+}
+
+/*Section étape*/
+
+#etape ul {
+    margin: 80px;
+}
+
+#etape ul li {
+    width: 300px;
+    float: left;
+    padding-top: 140px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+#etape h4 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+#etape p {
+    margin-bottom: 20px;
+}
+
+#etape1 {
+    background: url('icon 1.png') no-repeat top center;
+}
+
+#etape2 {
+    background: url('icone 2.jpg') no-repeat top center;
+}
+
+#etape3 {
+    background: url('icone 3.jpg') no-repeat top center;
+}
+
+/* Section possibilité*/
+#possibilite-voyage {
+    background-color: #322362;
+    padding: 60px 0;
+}
+
+#possibilite-voyage article {
+    width: 460px;
+    height: 270px;
+    float: left;
+    border-radius: 10px;
+}
+
+#possibilite-voyage article:first-child {
+    margin-right: 20px;
+}
+
+.recouvrir {
+    background: rgba(255, 255, 255, 0.95);
+    height: 100%;
+    width: 190px;
+    padding: 20px;
+    border-radius: 10px 0 0 10px;
+    text-align: center;
+}
+
+article h4 {
+    border-bottom: 1px solid #45368b;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#possibilite-voyage p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.bouton-2 {
+    color: #fff;
+    background-color: #4f3786;
+    padding: 6px 20px;
+    border-radius: 3px;
+}
+
+.bouton-2:hover {
+    color: #fff;
+    background-color: #2f1077;
+}
+
+/*Section contact*/
+
+#section-contact {
+    padding: 60px 0;
+    text-align: center;
+}
+
+#section-contact h3 {
+    width: 400px;
+    text-transform: uppercase;
+    margin: 0 auto 20px auto;
+    border-bottom: 2px solid #231263;
+    padding: 20px;
+}
+
+form {
+    margin: 60px 0 20px 0;
+}
+
+label {
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 10px;
+    color: #777;
+}
+
+form input {
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 20px;
+    border: 2px solid #ddd;
+    border-radius: 3px;
+}
+
+.bouton-3 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 11px;
+    background-color:#231263;
+    border-style: none;
+    border-radius: 3px;
+}
+
+.bouton-3:hover {
+    color: #fff ;
+    background-color: #444;
+}
+
+/*Section footer*/
+footer {
+    height: 260px;
+    background-color: #444;
+}
+
+footer h1 {
+    color:#fff;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.copyright {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+    color: #231263;
+}
